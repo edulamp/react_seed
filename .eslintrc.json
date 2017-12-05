@@ -1,0 +1,48 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
+  "extends": "airbnb",
+  "plugins": ["import", "promise", "compat", "react"],
+  "globals": {
+    "$": true
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "arrow-parens": ["off"],
+    "compat/compat": 2,
+    "consistent-return": 0,
+    "constructor-super": "off",
+    "comma-dangle": "off",
+    "generator-star-spacing": "off",
+    "import/no-unresolved": "error",
+    "import/no-extraneous-dependencies": "off",
+    "import/prefer-default-export": 0,
+    "no-console": 1,
+    "no-use-before-define": "error",
+    "no-this-before-super": "error",
+    "no-multi-assign": 1,
+    "promise/param-names": "error",
+    "promise/always-return": 0,
+    "promise/catch-or-return": "error",
+    "promise/no-native": "off",
+    "react/prop-types": "off",
+    "react/sort-comp": [
+      "off",
+      {
+        "order": ["type-annotations", "static-methods", "lifecycle", "everything-else", "render"]
+      }
+    ],
+    "react/jsx-no-bind": "off",
+    "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+    "react/prefer-stateless-function": "off",
+    "no-underscore-dangle": "off",
+    "no-confusing-arrow": "off"
+  }
+}
