@@ -1,3 +1,4 @@
+const webpack = require('webpack');
 const path = require('path');
 
 const DIST_DIR = path.resolve(__dirname, 'dist');
@@ -6,7 +7,7 @@ console.log(process.env);
 
 module.exports = {
   entry: [path.resolve(__dirname, 'src/index')],
-  devtool: 'inline-source-map',
+  devtool: 'source-map',
   target: 'web',
   output: {
     path: DIST_DIR,
@@ -16,6 +17,7 @@ module.exports = {
     inline: true,
     port: 5000,
   },
+  plugins: [new webpack.optimize.DedupePlugin(), new webpack.optimize.UglifyJsPlugin()],
   module: {
     loaders: [
       {
