@@ -2,7 +2,6 @@ import { curry } from 'ramda';
 
 export { curry };
 const add = (...params) => params;
-let y;
 
 add(
   1,
