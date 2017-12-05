@@ -9,7 +9,7 @@
     "localtunnel": "lt --port 3000",
     "dev-server": "webpack-dev-server",
     "watch": "npm-run-all --parallel lint-watch test-watch",
-    "lint": "esw webpack.config.* src buildScripts --color --watch",
+    "lint": "esw webpack.config.* src buildScripts --color",
     "lint-watch": "esw webpack.config.* src buildScripts --color --watch",
     "test": "mocha --reporter progress buildScripts/testSetup.js \"test/**/*.test.js\"",
     "test-watch": "npm run test -- --watch"
