@@ -1,6 +1,8 @@
 const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const WebpackMd5Hash = require('webpack-md5-hash');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const DIST_DIR = path.resolve(__dirname, 'dist');
 
@@ -16,14 +18,15 @@ module.exports = {
 	output: {
 		path: DIST_DIR,
 		publicPath: '/',
-
-		filename: '[name].min.js',
+		filename: '[name].[chunkhash].js',
 	},
 	devServer: {
 		inline: true,
 		port: 5000,
 	},
 	plugins: [
+		new ExtractTextPlugin('[name].[contenthash].css'),
+		new WebpackMd5Hash(),
 		new webpack.optimize.CommonsChunkPlugin({
 			name: 'vendor',
 		}),
@@ -52,7 +55,16 @@ module.exports = {
 				include: path.join(__dirname, 'src'),
 				loaders: ['babel-loader'],
 			},
-			{ test: /(\.css)$/, loaders: ['style-loader', 'css-loader'] },
+			// {
+			// 	test: /(\.css)$/,
+			// 	loader: ExtractTextPlugin.extract({
+			// 		use: ['style-loader', 'css-loader'],
+			// 	}),
+			// },
+			{
+				test: /(\.css)$/,
+				loader: ExtractTextPlugin.extract('css-loader?sourceMap'),
+			},
 			{ test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: 'file-loader' },
 			{ test: /\.(woff|woff2)$/, loader: 'url?prefix=font/&limit=5000' },
 			{
