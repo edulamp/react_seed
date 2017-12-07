@@ -1,22 +1,21 @@
 {
-  "presets": [
-    [
-      "env",
-      {
-        "targets": { "node": 7 },
-        "useBuiltIns": true
-      }
-    ],
-    "react"
-  ],
-  "env": {
-    "development": {
-      "presets": ["react-hmre"],
-      "plugins": ["transform-class-properties"]
-    },
-    "production": {
-      "presets": ["react-optimize"],
-      "plugins": ["babel-plugin-dev-expression"]
-    }
-  }
+	"presets": [
+		[
+			"env",
+			{
+				"targets": { "node": 7 },
+				"useBuiltIns": true
+			}
+		],
+		"react"
+	],
+	"env": {
+		"development": {
+			"presets": ["react-hmre"],
+			"plugins": ["transform-class-properties"]
+		},
+		"production": {
+			"presets": ["react-optimize"]
+		}
+	}
 }
