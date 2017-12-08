@@ -55,12 +55,6 @@ module.exports = {
 				include: path.join(__dirname, 'src'),
 				loaders: ['babel-loader'],
 			},
-			// {
-			// 	test: /(\.css)$/,
-			// 	loader: ExtractTextPlugin.extract({
-			// 		use: ['style-loader', 'css-loader'],
-			// 	}),
-			// },
 			{
 				test: /(\.css)$/,
 				loader: ExtractTextPlugin.extract('css-loader?sourceMap'),
