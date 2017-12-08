@@ -1,19 +1,18 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const DIST_DIR = path.resolve(__dirname, 'dist');
-
 module.exports = {
 	entry: [path.resolve(__dirname, 'src/index')],
 	devtool: 'inline-source-map',
 	target: 'web',
 	output: {
-		path: DIST_DIR,
-		filename: 'dist/bundle.js',
+		filename: 'src/bundle.js',
 	},
 	devServer: {
-		inline: true,
-		port: 5000,
+		publicPath: path.join(__dirname, 'src'),
+		contentBase: path.join(__dirname, 'src'),
+		compress: true,
+		port: 6000,
 	},
 	plugins: [
 		new HtmlWebpackPlugin({

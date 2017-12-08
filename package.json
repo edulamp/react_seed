@@ -4,10 +4,10 @@
 	"description": "Starter kit by Yong",
 	"main": "index.js",
 	"scripts": {
-		"start": "npm run dev-server",
+		"start": "webpack-dev-server ./src",
 		"security-check": "nsp check",
 		"localtunnel": "lt --port 3000",
-		"dev-server": "webpack-dev-server",
+		"dev-server": "webpack-dev-server ./src",
 		"watch": "npm-run-all --parallel lint-watch test-watch",
 		"lint": "esw webpack.config.* src buildScripts --color",
 		"lint-watch": "esw webpack.config.* src buildScripts --color --watch",

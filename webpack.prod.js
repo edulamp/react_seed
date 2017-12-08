@@ -20,10 +20,6 @@ module.exports = {
 		publicPath: '/',
 		filename: '[name].[chunkhash].js',
 	},
-	devServer: {
-		inline: true,
-		port: 5000,
-	},
 	plugins: [
 		new ExtractTextPlugin('[name].[contenthash].css'),
 		new WebpackMd5Hash(),
