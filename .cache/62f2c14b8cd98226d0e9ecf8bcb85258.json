@@ -1,1 +1,0 @@
-{"dependencies":[],"generated":{"js":"function _isString(x) {\n  return Object.prototype.toString.call(x) === '[object String]';\n}\nmodule.exports = _isString;"},"hash":"1c8a81c029d544aa2bb6bca3612a85f8"}

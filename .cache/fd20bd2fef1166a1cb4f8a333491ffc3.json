@@ -1,1 +1,0 @@
-{"dependencies":[],"generated":{"js":"function _has(prop, obj) {\n  return Object.prototype.hasOwnProperty.call(obj, prop);\n}\nmodule.exports = _has;"},"hash":"77630265ad5fbda4b6a5bcfdc7086618"}

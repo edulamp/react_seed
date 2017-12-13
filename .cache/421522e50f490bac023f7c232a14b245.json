@@ -1,1 +1,0 @@
-{"dependencies":[],"generated":{"js":"function _reduced(x) {\n  return x && x['@@transducer/reduced'] ? x : {\n    '@@transducer/value': x,\n    '@@transducer/reduced': true\n  };\n}\nmodule.exports = _reduced;"},"hash":"d2ecb1d4fb5e55866ab3e83592036876"}

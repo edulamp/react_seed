@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./ArrayObservable","loc":{"line":3,"column":32}}],"generated":{"js":"\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar ArrayObservable_1 = require(\"./ArrayObservable\");\nexports.of = ArrayObservable_1.ArrayObservable.of;\n//# sourceMappingURL=of.js.map"},"hash":"6387cf45c3b4c2ad805adb2506013e7f"}

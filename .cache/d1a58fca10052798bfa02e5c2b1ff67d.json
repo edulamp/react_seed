@@ -1,1 +1,0 @@
-{"dependencies":[],"generated":{"js":"/**\n * Determine if the passed argument is an integer.\n *\n * @private\n * @param {*} n\n * @category Type\n * @return {Boolean}\n */\nmodule.exports = Number.isInteger || function _isInteger(n) {\n  return n << 0 === n;\n};"},"hash":"d70cd51a2f384441f48f63bf4e8187a8"}

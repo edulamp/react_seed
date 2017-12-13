@@ -1,1 +1,0 @@
-{"dependencies":[],"generated":{"js":"function _aperture(n, list) {\n  var idx = 0;\n  var limit = list.length - (n - 1);\n  var acc = new Array(limit >= 0 ? limit : 0);\n  while (idx < limit) {\n    acc[idx] = Array.prototype.slice.call(list, idx, idx + n);\n    idx += 1;\n  }\n  return acc;\n}\nmodule.exports = _aperture;"},"hash":"649fa535c6aef787b8c6387fbbdd110d"}

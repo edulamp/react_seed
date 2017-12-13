@@ -1,1 +1,0 @@
-{"dependencies":[],"generated":{"js":"function _arrayFromIterator(iter) {\n  var list = [];\n  var next;\n  while (!(next = iter.next()).done) {\n    list.push(next.value);\n  }\n  return list;\n}\nmodule.exports = _arrayFromIterator;"},"hash":"e12fc40eefc8cd9e7c83d5be5451f6ce"}

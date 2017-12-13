@@ -1,1 +1,0 @@
-{"dependencies":[],"generated":{"js":"function _containsWith(pred, x, list) {\n  var idx = 0;\n  var len = list.length;\n\n  while (idx < len) {\n    if (pred(x, list[idx])) {\n      return true;\n    }\n    idx += 1;\n  }\n  return false;\n}\nmodule.exports = _containsWith;"},"hash":"6339275f4a1dc52b42ff418a5a0c9069"}

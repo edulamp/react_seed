@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./_indexOf","loc":{"line":1,"column":36}}],"generated":{"js":"var _indexOf = /*#__PURE__*/require('./_indexOf');\n\nfunction _contains(a, list) {\n  return _indexOf(list, a, 0) >= 0;\n}\nmodule.exports = _contains;"},"hash":"813ed8b7c2c004583ebbeeba1be917a2"}

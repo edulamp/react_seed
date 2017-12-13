@@ -1,1 +1,0 @@
-{"dependencies":[],"generated":{"js":"function _isPlaceholder(a) {\n       return a != null && typeof a === 'object' && a['@@functional/placeholder'] === true;\n}\nmodule.exports = _isPlaceholder;"},"hash":"5269a063dd7cd84b7dba8ca9204a5b9c"}

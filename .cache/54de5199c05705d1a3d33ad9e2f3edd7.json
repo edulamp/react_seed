@@ -1,1 +1,0 @@
-{"dependencies":[],"generated":{"js":"function _map(fn, functor) {\n  var idx = 0;\n  var len = functor.length;\n  var result = Array(len);\n  while (idx < len) {\n    result[idx] = fn(functor[idx]);\n    idx += 1;\n  }\n  return result;\n}\nmodule.exports = _map;"},"hash":"909b39b7310a38974450d20f0af6c9b4"}

@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./UsingObservable","loc":{"line":3,"column":32}}],"generated":{"js":"\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar UsingObservable_1 = require(\"./UsingObservable\");\nexports.using = UsingObservable_1.UsingObservable.create;\n//# sourceMappingURL=using.js.map"},"hash":"a061103a8c3b4b0ddce026cfa0030763"}

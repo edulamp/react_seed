@@ -1,1 +1,0 @@
-{"dependencies":[],"generated":{"js":"function _isTransformer(obj) {\n  return typeof obj['@@transducer/step'] === 'function';\n}\nmodule.exports = _isTransformer;"},"hash":"4f1fe53cacadffffd482be0969352072"}

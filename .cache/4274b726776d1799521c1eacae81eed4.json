@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../take","loc":{"line":1,"column":32}}],"generated":{"js":"var take = /*#__PURE__*/require('../take');\n\nfunction dropLast(n, xs) {\n  return take(n < xs.length ? xs.length - n : 0, xs);\n}\nmodule.exports = dropLast;"},"hash":"f647877dbf934133d87c76c10920418e"}

@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./AjaxObservable","loc":{"line":3,"column":31}}],"generated":{"js":"\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar AjaxObservable_1 = require(\"./AjaxObservable\");\nexports.ajax = AjaxObservable_1.AjaxObservable.create;\n//# sourceMappingURL=ajax.js.map"},"hash":"b56aa034f7388a32c11bf804ea08189d"}

@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./_objectAssign","loc":{"line":1,"column":41}}],"generated":{"js":"var _objectAssign = /*#__PURE__*/require('./_objectAssign');\n\nmodule.exports = typeof Object.assign === 'function' ? Object.assign : _objectAssign;"},"hash":"b599ee9f7b23c1d48a6cb63ad5a7c581"}

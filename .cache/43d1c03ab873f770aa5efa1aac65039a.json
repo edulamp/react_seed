@@ -1,1 +1,0 @@
-{"dependencies":[],"generated":{"js":"\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\n/**\n * @param func\n * @return {Observable<R>}\n * @method let\n * @owner Observable\n */\nfunction letProto(func) {\n    return func(this);\n}\nexports.letProto = letProto;\n//# sourceMappingURL=let.js.map"},"hash":"fba6c3b982a65c981ce9533880e779ed"}
