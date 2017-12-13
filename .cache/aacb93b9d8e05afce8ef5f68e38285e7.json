@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"function _filter(fn, list) {\n  var idx = 0;\n  var len = list.length;\n  var result = [];\n\n  while (idx < len) {\n    if (fn(list[idx])) {\n      result[result.length] = list[idx];\n    }\n    idx += 1;\n  }\n  return result;\n}\nmodule.exports = _filter;"},"hash":"f7e325eae55c73c680fc616d60f32080"}

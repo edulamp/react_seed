@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./TimerObservable","loc":{"line":3,"column":32}}],"generated":{"js":"\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar TimerObservable_1 = require(\"./TimerObservable\");\nexports.timer = TimerObservable_1.TimerObservable.create;\n//# sourceMappingURL=timer.js.map"},"hash":"c002662a80aad03ad55d14c540bc1725"}

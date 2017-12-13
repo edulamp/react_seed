@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./NeverObservable","loc":{"line":3,"column":32}}],"generated":{"js":"\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar NeverObservable_1 = require(\"./NeverObservable\");\nexports.never = NeverObservable_1.NeverObservable.create;\n//# sourceMappingURL=never.js.map"},"hash":"9bf1998b01c062eb2b95dbb81ca6fdbb"}

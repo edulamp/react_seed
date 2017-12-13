@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./PairsObservable","loc":{"line":3,"column":32}}],"generated":{"js":"\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar PairsObservable_1 = require(\"./PairsObservable\");\nexports.pairs = PairsObservable_1.PairsObservable.create;\n//# sourceMappingURL=pairs.js.map"},"hash":"50c58598c853bdfccfc4b39dac8744da"}

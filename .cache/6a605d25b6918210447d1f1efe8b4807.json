@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./DeferObservable","loc":{"line":3,"column":32}}],"generated":{"js":"\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar DeferObservable_1 = require(\"./DeferObservable\");\nexports.defer = DeferObservable_1.DeferObservable.create;\n//# sourceMappingURL=defer.js.map"},"hash":"245b54072b3ecf0358b4663c23ba37a3"}

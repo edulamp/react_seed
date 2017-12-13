@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"function _cloneRegExp(pattern) {\n                                  return new RegExp(pattern.source, (pattern.global ? 'g' : '') + (pattern.ignoreCase ? 'i' : '') + (pattern.multiline ? 'm' : '') + (pattern.sticky ? 'y' : '') + (pattern.unicode ? 'u' : ''));\n}\nmodule.exports = _cloneRegExp;"},"hash":"70743efc4b0e05e141a471243338e9b4"}

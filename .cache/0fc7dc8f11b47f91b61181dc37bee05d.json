@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"function _isRegExp(x) {\n  return Object.prototype.toString.call(x) === '[object RegExp]';\n}\nmodule.exports = _isRegExp;"},"hash":"16193804bf6a3ceebf8cc56ada79f9a2"}

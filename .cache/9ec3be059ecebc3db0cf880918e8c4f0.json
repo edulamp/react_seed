@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"function _of(x) {\n  return [x];\n}\nmodule.exports = _of;"},"hash":"31634b3f65bbb889a65fb083d4ddb80d"}

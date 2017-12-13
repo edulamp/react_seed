@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./EmptyObservable","loc":{"line":3,"column":32}}],"generated":{"js":"\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar EmptyObservable_1 = require(\"./EmptyObservable\");\nexports.empty = EmptyObservable_1.EmptyObservable.create;\n//# sourceMappingURL=empty.js.map"},"hash":"6a3fd66ac7c6d7bb4c907bb3556126e7"}

@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./app.css"}],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.sayHello = sayHello;\n\nrequire(\"./app.css\");\n\nconsole.log('app load');\n\nconst x = [1, 2];\nconsole.log([...x, 3, 4, 5]);\n\nfunction sayHello() {\n  return 'hello world';\n}"},"hash":"abc0d309bd8b8b5a1211e1f927ad9ab0"}
