@@ -1,1 +1,2 @@
-import 'rxjs';
+import 'react';
+import 'react-dom';

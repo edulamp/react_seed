@@ -55,6 +55,10 @@ module.exports = {
 				test: /(\.css)$/,
 				loader: ExtractTextPlugin.extract('css-loader?sourceMap'),
 			},
+			{
+				test: /(\.scss)$/,
+				loader: ['style-loader', 'css-loader', 'sass-loader'],
+			},
 			{ test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: 'file-loader' },
 			{ test: /\.(woff|woff2)$/, loader: 'url?prefix=font/&limit=5000' },
 			{

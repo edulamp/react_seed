@@ -1,10 +1,13 @@
-import './app.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './app.scss';
 
-console.log('app load');
-
-const x = [1, 2];
-console.log([...x, 3, 4, 5]);
-
-export function sayHello() {
-	return 'hello world';
+const mountNode = document.getElementById('app');
+class HelloMessage extends React.Component {
+	render() {
+		return <div>Hello {this.props.name}</div>;
+	}
 }
+console.log('hello world launch');
+
+ReactDOM.render(<HelloMessage name="world" />, mountNode);
