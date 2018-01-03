@@ -5,7 +5,7 @@
 		"sourceType": "module",
 		"allowImportExportEverywhere": true
 	},
-	"extends": ["airbnb", "prettier"],
+	"extends": ["airbnb", "prettier", "prettier/react"],
 	"plugins": ["import", "promise", "compat", "react"],
 	"globals": {
 		"$": true
@@ -16,26 +16,27 @@
 		"mocha": true
 	},
 	"rules": {
-		"arrow-parens": ["off"],
+		"arrow-parens": [0],
 		"compat/compat": 2,
 		"consistent-return": 0,
-		"constructor-super": "off",
+		"constructor-super": 0,
 		"comma-dangle": 0,
-		"generator-star-spacing": "off",
-		"import/no-unresolved": "error",
-		"import/no-extraneous-dependencies": "off",
+		"generator-star-spacing": 0,
+		"import/no-unresolved": 2,
+		"import/no-extraneous-dependencies": 0,
 		"import/prefer-default-export": 0,
 		"no-console": 1,
-		"no-use-before-define": "error",
-		"no-this-before-super": "error",
+		"no-use-before-define": 2,
+		"no-this-before-super": 2,
 		"no-multi-assign": 1,
-		"promise/param-names": "error",
+		"no-return-assign": 0,
+		"promise/param-names": 2,
 		"promise/always-return": 0,
-		"promise/catch-or-return": "error",
-		"promise/no-native": "off",
-		"react/prop-types": "off",
+		"promise/catch-or-return": 2,
+		"promise/no-native": 0,
+		"react/prop-types": 0,
 		"react/sort-comp": [
-			"off",
+			0,
 			{
 				"order": [
 					"type-annotations",
@@ -46,13 +47,10 @@
 				]
 			}
 		],
-		"react/jsx-no-bind": "off",
-		"react/jsx-filename-extension": [
-			"error",
-			{ "extensions": [".js", ".jsx"] }
-		],
-		"react/prefer-stateless-function": "off",
-		"no-underscore-dangle": "off",
-		"no-confusing-arrow": "off"
+		"react/jsx-no-bind": 0,
+		"react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx"] }],
+		"react/prefer-stateless-function": 0,
+		"no-underscore-dangle": 0,
+		"no-confusing-arrow": 0
 	}
 }
